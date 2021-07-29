@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/phone_call"
+        android:title="@string/emergency_call"
+        android:visible="true"></item>
+
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/navigation"
+        android:title="@string/maps"
+        android:visible="true"></item>
+
+    <item
+        android:id="@+id/tips"
+        android:icon="@drawable/solution"
+        android:title="@string/defence_tips"
+        android:visible="true"></item>
+
+    <item
+        android:id="@+id/laws"
+        android:icon="@drawable/verdict"
+        android:title="@string/laws"
+        android:visible="true"></item>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/assistant"
+        android:title="@string/home"
+        android:visible="true"></item>
+</menu>

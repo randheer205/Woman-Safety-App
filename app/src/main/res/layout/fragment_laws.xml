@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".laws">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:backgroundTintMode="screen"
+        android:background="@drawable/grad_blue_vert"
+        android:backgroundTint="#00FFFFFF"
+        android:fadingEdge="horizontal|vertical"
+        android:gravity="start"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:buttonGravity="bottom"
+        app:logo="@drawable/verdict_128x128"
+        app:logoDescription="@string/laws"
+        app:title="@string/laws" />
+
+
+    <TextView
+        android:id="@+id/lawsheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar3"
+        android:backgroundTintMode="screen"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/lawsheading_string"
+        android:textAlignment="inherit"
+        android:textColor="@android:color/black"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="615dp"
+        android:layout_below="@id/lawsheading"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:scrollbarThumbVertical="@color/design_default_color_primary"
+        android:scrollbarTrackVertical="@android:color/holo_purple">
+
+        <TextView
+            android:id="@+id/laws_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/lawspara_string"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium">
+
+
+        </TextView>
+    </ScrollView>
+</RelativeLayout>

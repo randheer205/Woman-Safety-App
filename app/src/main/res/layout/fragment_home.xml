@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_violet"
+    tools:context=".home" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="0dp"
+            android:layout_height="238dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/rect_round4"
+            android:backgroundTint="#41FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="92dp"
+                android:layout_height="103dp"
+                app:layout_column="0"
+                app:layout_row="0"
+                app:srcCompat="@drawable/profile__custom_"
+                tools:src="@drawable/profile__custom_" />
+
+            <LinearLayout
+                android:layout_width="249dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/firstname"
+                    style="@android:style/Widget.Material.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/philosopher"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/lastname"
+                    style="@android:style/Widget.Material.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/philosopher"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/phone1"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/phone2"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/phone3"
+                    style="@android:style/Widget.DeviceDefault.Light.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="TextView" />
+            </LinearLayout>
+
+        </androidx.gridlayout.widget.GridLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="448dp"
+            android:layout_marginTop="65dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gridLayout">
+
+            <Button
+                android:id="@+id/setting_button"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@android:drawable/ic_menu_manage"
+                android:fontFamily="@font/happy_monkey"
+                android:foreground="@drawable/rect_round"
+                android:text="Settings"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="NewApi" />
+
+            <Button
+                android:id="@+id/about"
+                style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@android:drawable/ic_menu_info_details"
+                android:elegantTextHeight="true"
+                android:fontFamily="@font/happy_monkey"
+                android:foreground="@drawable/rect_round"
+                android:selectAllOnFocus="false"
+                android:text="About Us"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColorHighlight="#00FFFFFF"
+                android:textColorLink="#00FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="NewApi" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

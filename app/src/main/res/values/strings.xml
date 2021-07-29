@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">Women Safety App</string>
+    <string name="welcome">Welcome</string>
+    <string name="next">Next</string>
+    <string name="home">Home</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="laws">Laws</string>
+    <string name="medical_help">Medical Help</string>
+    <string name="defence_tips">Defence Tips</string>
+    <string name="maps">SMS ALERT</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="home_settings">Settings</string>
+    <string name="home_about">About Us</string>
+    <string name="sendlocation">Send Location</string>
+    <string name="get_location1">Get location</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tips"> </string>
+    <string name="tips_string">Safety Tips and Defence Videos</string>
+    <string name="paragraph_string">Criminals often tend to view women as being more vulnerable and
+        softer targets than men. Don’t be an easy victim and constantly educate yourself on ways to
+        stay safe. Start off with these safety tips for women.\n\n</string>
+
+<string name="tip1">1. Always be aware. While going through your day to day duties of work, kids, school run, dinner
+   all those fun life admin tasks that never stop, keep awareness top of mind. Regularly check on
+   your home security and look for anything that’s out of place, don’t forget to arm your alarm when
+    leaving in a rush, and always take note of your surroundings.\n\n</string>
+
+<string name="tip2">2. Never pull over when someone points at your car, claiming that something is wrong. Suspects use
+   this tactic to get you to open your window or get out of the car. Rather drive to the nearest garage or shop where you will be safe to have a look yourself or can ask for assistance.\n\n</string>
+
+<string name="tip3">3. Always remember to lock your doors when driving. Suspects often hijack or smash-and-grab motorists stopped at a red traffic light. Don’t make it any easier for them by simply leaving your doors unlocked.\n\n</string>
+
+<string name="tip4">4. Limit distractions in parking lots. Tuck your phone safely in your purse so you can keep your head up to look around and pay attention to your surroundings. If it’s late and you feel uneasy or parked far from the entrance, ask a security guard to escort you to your car. If you reach your car and notice that it has a flat tire, back away immediately and return to the shop from where you can safely ask for assistance or call for help.\n\n</string>
+
+<string name="tip5">5. Never walk alone, especially at night. If it can’t be helped, take all possible precautions to ensure your safety. Keep your phone out of sight and refrain from listening to music, as you won’t be able to hear someone approaching you from behind.\n\n</string>
+
+<string name="tip6">6. Make eye contact with other pedestrians. By doing this you send a strong defensive signal that you see them and could identify them if necessary. Look them in the eye and give a polite nod to acknowledge them.\n\n</string>
+
+<string name="tip7">7. Scream at the top of your lungs and twist your arm up and down if someone tries to grab you. Do anything you can to draw as much attention to yourself as possible.\n\n</string>
+
+<string name="tip8">8. Hit the body parts that are the most tender if you have to defend yourself against an attacker. You want to aim at whatever is going to hurt the most, regardless of the attacker’s strength and size. These are vulnerable areas like the eyes, nose, throat, groin and shin.\n\n</string>
+
+<string name="tip9">9. Never trust a stranger based on his appearance. Most offenders don’t even look like criminals but your friendly next door neighbour, and are sometimes dressed quite well.\n\n</string>
+
+<string name="tip10">10. Be mindful of the way you dress, especially if you will be walking alone. Shoes like wedges and high heels, and tight skirts, will be hard to run in while scarves and long necklaces are easy to grab. Play a scenario through your mind and try to determine if you would be able to easily defend yourself with what you’re wearing.\n\n</string>
+
+<string name="tip11">11. Never leave your handbag unattended. Purse snatchers are very sly and will grab your bag and disappear the moment you turn your back. Being a woman you are most probably prepared for any situation and likely carry some form of documentation containing your physical address. That information in the wrong hands could put you at further risk.\n</string>
+
+    <string name="defence_tips_string">SAFETY TIPS FOR WOMEN</string>
+    <string name="lawsheading_string">Laws For Women In India</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="lawspara_string">\n<h1>The Prohibition of Child Marriage Act, 2006</h1>\n\nAccording to the International Research Centre for Women, almost 47 percent of girls are
+        married \before the age of 18. Currently, India ranks 13 in the world when it comes to child
+        marriages. Since child marriage has been steeped into the Indian culture and tradition since
+        centuries, it has been tough eliminating it. The Prohibition of Child Marriage Act was made
+        effective in 2007. This act defines child marriage as a marriage where the groom or the
+        bride are underage, that is, the bride is under 18 years of age or the boy is younger than
+        21 years. Parents trying to marry underage girls are subject to action under this law. Since
+        the law makes these marriages illegal, it acts as a major deterrent.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>Special Marriage Act, 1954</h1>\n\nThe objectives of this act is to provide – a
+        special form of marriage in certain cases, provide for registration of certain marriages
+        and, to provide for divorce. In a country like India and with the diverse religions and
+        cast, when people from different faiths and caste chose to get married they do it under the
+        Special Marriage Act.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>Dowry Prohibition Act, 1961</h1>\n\nAccording to this act, taking or giving of dowry
+        at the time of the marriage to the bride or the bridegroom and their family is to be
+        penalised. Dowry system, giving and taking of dowry, is a norm in India. Dowry is often
+        asked of the bride and her family by the groom and his family. The system has taken strong
+        roots because women after marriage move in with their spouse and in-laws. Also, over the
+        centuries, the lack for economic independence of women and the taboo towards divorce has
+        resulted in bride burning. When demands for dowry even after marriage are not met by the
+        girl’s families, many women are tortured, beaten and even burnt. It is one of the major
+        challenges that our society is grappling with. Women openly complaining about it has helped
+        to spread the word and encourage other women to take a stand.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>Indian Divorce Act, 1969</h1>\n\nThe Indian Divorce Act allows the dissolution of
+        marriage, mutual consent, nullity of marriage, judicial separation and restitution of
+        conjugal rights. Family Courts are established to file, hear, and dispose of such cases.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>Maternity Benefit Act,1861</h1>\n\nThis act regulates the employment of women and
+        maternity benefits mandated by law. It states that a woman employee who has worked in an
+        organisation for a period of at least 80 days during the 12 months preceding the date of
+        her expected delivery is entitled to receive maternity benefits, which includes maternity
+        leave, nursing breaks, medical allowance, etc.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>Medical Termination of Pregnancy Act,1971</h1>\n\nThe Act came into effect into 1972,
+        was amended in 1975 and 2002. The aim of the Act is to reduce the occurrence of illegal
+        abortion and consequent maternal mortality and morbidity. It clearly states the conditions
+        under which a pregnancy can be ended or aborted and specifies the persons qualified to
+        conduct the same.\n<a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013</h1>
+        \n\nTo ensure women’s safety at workplace, this Act seeks to protect them from sexual
+        harassment at their place of work. Thirty-six percent of Indian companies and 25 percent
+        among MNC’s are not complaint with the Sexual Harassment Act according to a FICCI-EY
+        November 2015 report. Sexual harassment at workplace also includes – the use of language
+        with sexual overtones, invasion of private space with a male colleague hovering too close
+        for comfort, subtle touches and innuendoes.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>Indecent Representation of Women(Prevention) Act,1986</h1>
+        \n\nThis Act prohibits indecent representation of women through advertisement or in
+        publications, writings, paintings, figures or in any other manner.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>National Commission for Women Act, 1990</h1>\n\nThe National Commission for Women
+        (NCW) is a statutory body of the Government of India, established in January 1992. Lalitha
+        Kumaramangalam was appointed its Chairperson in 2014. The NCW represents the rights of women
+        in India and provides a voice for their issues and concerns. The National Commission for
+        Women Act aims to improve the status of women and worked for their economic empowerment.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n\n<h1>Equal Remuneration Act, 1976</h1>\n\nThis Act prevents discrimination in terms of
+        remuneration. It provides for payment of equal recompense to men and women workers. It is
+        necessary to know these and other laws in place to protect the interests of women. Only if
+        you are aware of your rights can you fight against any injustice meted out to you at home,
+        at the workplace, or in the society.\n
+        <a href="https://yourstory.com/2016/06/laws-that-protect-women-rights">Read More</a>
+        \n
+    </string>
+</resources>

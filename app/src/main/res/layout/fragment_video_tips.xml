@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".video_tips">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="2.5dp"
+            android:scrollbarThumbVertical="@android:color/holo_blue_light"
+            android:scrollbarTrackVertical="@android:color/holo_red_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="413dp"
+                    android:layout_height="269dp"
+                    android:layout_marginTop="16dp"
+                    android:animateLayoutChanges="true"
+                    android:foreground="@drawable/rect_round4"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="7 Tricks For Defending" />
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtubevideo1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="20dp"
+                        android:soundEffectsEnabled="true"
+                        app:autoPlay="false"
+                        app:enableLiveVideoUi="true"
+                        app:showFullScreenButton="true"
+                        app:showSeekBar="true"
+                        app:showVideoCurrentTime="true"
+                        app:showVideoDuration="true"
+                        app:showYouTubeButton="true"
+                        app:videoId="T7aNSRoDCmg" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="413dp"
+                    android:layout_height="269dp"
+                    android:layout_marginTop="20dp"
+                    android:animateLayoutChanges="true"
+                    android:foreground="@drawable/rect_round4"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="Pretty Loaded Tip #4 Are You Distracted?" />
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtubevideo2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="20dp"
+                        android:soundEffectsEnabled="true"
+                        app:autoPlay="false"
+                        app:enableLiveVideoUi="true"
+                        app:showFullScreenButton="true"
+                        app:showSeekBar="true"
+                        app:showVideoCurrentTime="true"
+                        app:showVideoDuration="true"
+                        app:showYouTubeButton="true"
+                        app:videoId="myu7BmyLF7I" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="413dp"
+                    android:layout_height="269dp"
+                    android:layout_marginTop="20dp"
+                    android:animateLayoutChanges="true"
+                    android:foreground="@drawable/rect_round4"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="Running and Walking Safety Tips" />
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtubevideo3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="20dp"
+                        android:soundEffectsEnabled="true"
+                        app:autoPlay="false"
+                        app:showFullScreenButton="true"
+                        app:showSeekBar="true"
+                        app:showVideoCurrentTime="true"
+                        app:showVideoDuration="true"
+                        app:showYouTubeButton="true"
+                        app:videoId="5Kqo4I0rzLc" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="413dp"
+                    android:layout_height="269dp"
+                    android:layout_marginTop="20dp"
+                    android:animateLayoutChanges="true"
+                    android:foreground="@drawable/rect_round4"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="Uber, Lyft, And Rideshare Safety Tips" />
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtubevideo4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="20dp"
+                        android:soundEffectsEnabled="true"
+                        app:autoPlay="false"
+                        app:showFullScreenButton="true"
+                        app:showSeekBar="true"
+                        app:showVideoCurrentTime="true"
+                        app:showVideoDuration="true"
+                        app:showYouTubeButton="true"
+                        app:videoId="y4o_XXUpx90" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="413dp"
+                    android:layout_height="269dp"
+                    android:layout_marginTop="20dp"
+                    android:animateLayoutChanges="true"
+                    android:foreground="@drawable/rect_round4"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="Parking Lot Safety Tips" />
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtubevideo5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="20dp"
+                        android:soundEffectsEnabled="true"
+                        app:autoPlay="false"
+                        app:showFullScreenButton="true"
+                        app:showSeekBar="true"
+                        app:showVideoCurrentTime="true"
+                        app:showVideoDuration="true"
+                        app:showYouTubeButton="true"
+                        app:videoId="36QR1Azb460" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="413dp"
+                    android:layout_height="269dp"
+                    android:layout_marginTop="20dp"
+                    android:animateLayoutChanges="true"
+                    android:foreground="@drawable/rect_round4"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="Safety Tips Every College Student Needs" />
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtubevideo6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="20dp"
+                        android:soundEffectsEnabled="true"
+                        app:autoPlay="false"
+                        app:showFullScreenButton="true"
+                        app:showSeekBar="true"
+                        app:showVideoCurrentTime="true"
+                        app:showVideoDuration="true"
+                        app:showYouTubeButton="true"
+                        app:videoId="nvcUNlCcOlo" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

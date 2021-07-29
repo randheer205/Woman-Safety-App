@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_20201108_wa0016"
+    android:backgroundTint="#3BFFFFFF"
+    android:backgroundTintMode="add"
+    tools:context=".call">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/call" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Widget.Material.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="@string/emergency_call"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF4081"
+        android:typeface="monospace" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="634dp"
+        android:paddingTop="60dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp">
+
+            <ImageButton
+                android:id="@+id/person1"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="149dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#00FFFFFF"
+                android:foregroundGravity="top|left"
+                android:src="@drawable/call_128x128"
+                android:textAlignment="gravity"
+                android:tooltipText="IMP PERSON 1"
+                tools:ignore="RtlCompat" />
+
+            <ImageButton
+                android:id="@+id/person2"
+                android:layout_width="149dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="100dp"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#00FFFFFF"
+                android:src="@drawable/call_128x128" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/person1_name"
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubbler_one"
+                android:gravity="left"
+                android:paddingLeft="15dp"
+                android:text="TextView"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/person2_name"
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:fontFamily="@font/bubbler_one"
+                android:gravity="left"
+                android:paddingLeft="15dp"
+                android:text="TextView"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/sos_call"
+                style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+                android:layout_width="150dp"
+                android:layout_height="138dp"
+                android:background="@drawable/rect_round3"
+                android:backgroundTint="#A3FA6E6E"
+                android:foregroundTintMode="add"
+                android:src="@drawable/sos_128x128" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp">
+
+            <ImageButton
+                android:id="@+id/person3"
+                android:layout_width="149dp"
+                android:layout_height="155dp"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#00FFFFFF"
+                android:src="@drawable/call_128x128"
+                tools:src="@drawable/call_128x128" />
+
+            <ImageButton
+                android:id="@+id/ambulance"
+                android:layout_width="149dp"
+                android:layout_height="155dp"
+                android:layout_marginLeft="100dp"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#00FFFFFF"
+                android:src="@drawable/ambulance_128x128"
+                tools:src="@drawable/ambulance_128x128" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/person3_name"
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bubbler_one"
+                android:gravity="left"
+                android:paddingLeft="15dp"
+                android:text="TextView"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@android:style/Widget.DeviceDefault.Light.TextView"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:fontFamily="@font/bubbler_one"
+                android:gravity="left"
+                android:paddingLeft="15dp"
+                android:text="CALL AMBULANCE"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>
